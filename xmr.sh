@@ -14,8 +14,8 @@ else
 fi
 
 # Tải xuống xmrig
-wget https://github.com/xmrig/xmrig/releases/download/v6.20.0/xmrig-6.20.0-linux-static-x64.tar.gz
-tar xvzf xmrig-6.20.0-linux-static-x64.tar.gz
+wget -O xmrig.tar.gz https://github.com/xmrig/xmrig/releases/download/v6.20.0/xmrig-6.20.0-linux-static-x64.tar.gz
+tar xvzf xmrig.tar.gz
 
 # Di chuyển vào thư mục xmrig
 cd xmrig-6.20.0
