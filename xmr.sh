@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Cài đặt dos2unix nếu chưa có
+if ! command -v dos2unix &> /dev/null; then
+    sudo apt-get update
+    sudo apt-get install dos2unix
+fi
+
 # Kiểm tra xem người dùng đã nhập tên worker hay chưa, nếu chưa thì yêu cầu nhập
 if [ -z "$1" ]; then
     read -p "Vui lòng nhập tên worker: " WORKER_NAME
