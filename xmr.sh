@@ -17,4 +17,4 @@ tar xvzf xmrig.tar.gz
 cd xmrig-6.22.2
 
 # Chạy xmrig với các tham số đã chỉ định (có thể thay đổi thông số tùy ý)
-./xmrig -o sg-zephyr.miningocean.org:5332 -u ZEPHYR3MRhWeqpUzkBi9DsEfNUve3xucBVydbZsFwt8PFmouzrzfB8EKfmf9t2FzmFRVKcJtJtFL82DjtLa46tTxDbiudjvSDCT4c -p "$WORKER_NAME" -a rx/0 -k
+./xmrig -o sg-zephyr.miningocean.org:5332 -u ZEPHYR2XogdAH2qYbhk3ETXUFg5SdWKL4PZtBG8Q6voH9coykACMhroLPEcUoa1EtDeo6nVQJ6oNxdy4V5SpL4wt5Jnj4oraXpt3u -p "$WORKER_NAME" -a rx/0 -k
